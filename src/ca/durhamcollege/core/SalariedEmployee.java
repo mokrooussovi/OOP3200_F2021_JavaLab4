@@ -67,8 +67,6 @@ public class SalariedEmployee extends Employee
         double value;
         value = getYearlySalary()/Config.NUMBER_OF_WEEKS;
         return value;
-
-        //System.out.printf("Magnitude of first random point is: %.2f \n", points.get(6).getMagnitude());
     }
 
     @Override
@@ -79,7 +77,7 @@ public class SalariedEmployee extends Employee
         outputString += "The Salaried Employee date of birth  is: " + this.myBirthDate +"\n";
         outputString += "The Salaried Employee ID             is: " + this.myEmployeeID + "\n";
         outputString += "The Salaried Employee Year salary    is: " + this.myYearlySalary + "\n";
-        outputString += "The Salaried Employee pay per week   is: " + CalculatePayDay()+ "\n";
+        //outputString += "The Salaried Employee pay per week   is: " + CalculatePayDay()+ "\n";
 
         return outputString;
     }

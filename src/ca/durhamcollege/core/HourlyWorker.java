@@ -106,7 +106,7 @@ public class HourlyWorker extends Employee
         outputString += "The Hourly Worker ID                is: " + this.myEmployeeID + "\n";
         outputString += "The Hourly Worker hourly rate       is: " + this.myHourlyRate + "\n";
         outputString += "The Hourly Worker works hours per week: " + this.myHoursPerWeek + "\n";
-        outputString += "The Hourly Worker pay per week      is: " + CalculatePayDay()+ "\n";
+        //outputString += "The Hourly Worker pay per week      is: " + CalculatePayDay()+ "\n";
 
         return outputString;
     }
