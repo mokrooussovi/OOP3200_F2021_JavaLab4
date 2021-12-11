@@ -17,5 +17,7 @@ public class Main {
     {
         SalariedEmployee salariedEmployee1 = new SalariedEmployee("Bob Green", LocalDate.of(2000,4,6), "34512356", 60000.00);
         System.out.println(salariedEmployee1.toString());
+        HourlyWorker hourlyWorker1 = new HourlyWorker("Leo Brown", LocalDate.of(1998, 5,21), "90876980", 21.5, 44.5);
+        System.out.println(hourlyWorker1.toString());
     }
 }
