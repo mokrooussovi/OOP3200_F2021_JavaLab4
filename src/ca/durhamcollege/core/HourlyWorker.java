@@ -39,8 +39,6 @@ public class HourlyWorker extends Employee
         if(hourlyRate >= Config.MINIMUM_WAGE)
         {
             myHourlyRate = hourlyRate;
-            //myHourlyRate = new ArrayList<>();
-            //myHourlyRate.addAll(Arrays.asList(hourlyRate));
         }
         else
         {
@@ -66,8 +64,6 @@ public class HourlyWorker extends Employee
         if(hoursPerWeek <= Config.MAXIMUM_HOURS_PER_WEEK)
         {
             myHoursPerWeek = hoursPerWeek;
-            //myHoursPerWeek = new ArrayList<>();
-            //myHoursPerWeek.addAll(Arrays.asList(hoursPerWeek));
         }
         else
         {

@@ -41,8 +41,6 @@ public class SalariedEmployee extends Employee
         if(yearlySalary >= Config.ZERO_SALARY)
         {
             myYearlySalary = yearlySalary;
-            //myYearlySalary = new ArrayList<>();
-            //myYearlySalary.addAll(Arrays.asList(yearlySalary));
         }
         else
         {
@@ -52,7 +50,7 @@ public class SalariedEmployee extends Employee
 
     /**
      * Getter for attribute myYearlySalary for SalariedEmployee class
-     * @return
+     * @return attribute 'myYearlySalary'
      */
     public double getYearlySalary()
     {
@@ -61,6 +59,10 @@ public class SalariedEmployee extends Employee
 
     // Public methods
 
+    /**
+     * This method can calculate weekly pay for salaried employee
+     * @return double of calculated amount of payment
+     */
     @Override
     public double CalculatePayDay()
     {
