@@ -50,6 +50,8 @@ public class Main {
             arrayOfEmployees.addAll(Arrays.asList(hourlyWorker3));
             HourlyWorker hourlyWorker4 = new HourlyWorker("Marcus Rashford", LocalDate.of(1993, 10, 5), "12389021", 39.5, 43.5);
             arrayOfEmployees.addAll(Arrays.asList(hourlyWorker4));
+            HourlyWorker hourlyWorker5 = new HourlyWorker("Phil Foden", LocalDate.of(2001, 6, 15), "67845320", 32.5, 42.5);
+            arrayOfEmployees.addAll(Arrays.asList(hourlyWorker5));
         }
         catch (IllegalArgumentException illegalArgumentException)
         {
